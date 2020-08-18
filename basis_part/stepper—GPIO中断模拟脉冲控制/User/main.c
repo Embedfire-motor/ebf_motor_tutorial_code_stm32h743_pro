@@ -29,7 +29,7 @@
   */
 int main(void) 
 {
-  int i=0,j=0;
+  int i=1,j=1;
   int dir_val=0;
   int en_val=0;
 	/* 初始化系统时钟为480MHz */
