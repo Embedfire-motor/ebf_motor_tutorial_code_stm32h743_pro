@@ -229,8 +229,6 @@ void speed_decision()
 						rest = 0;
 						// 关闭通道
 						HAL_TIM_OC_Stop_IT(&TIM_TimeBaseStructure,MOTOR_PUL_CHANNEL_x);
-
-
 						status.running = FALSE;
 						break;
 				/*步进电机加速状态*/

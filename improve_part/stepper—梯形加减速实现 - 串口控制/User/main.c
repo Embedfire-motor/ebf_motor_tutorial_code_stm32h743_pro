@@ -49,6 +49,7 @@ int main(void)
 	//打印帮助命令
 	ShowHelp();
 
+	MOTOR_EN(HIGH);
 	while(1)
 	{     
 		//处理串口数据
