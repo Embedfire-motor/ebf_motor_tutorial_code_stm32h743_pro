@@ -59,7 +59,7 @@ int main(void)
   /* 调试串口初始化 */
   DEBUG_USART_Config();
   
-  printf("野火直流无刷电机按键控制例程\r\n");
+  printf("野火直流温度-电源电压保护-例程\r\n");
 
   /* ADC 初始化 */
   ADC_Init();

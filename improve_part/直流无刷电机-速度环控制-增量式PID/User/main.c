@@ -4,7 +4,7 @@
   * @author  fire
   * @version V1.0
   * @date    2020-xx-xx
-  * @brief   直流无刷电机-速度环控制-增量式PID
+  * @brief   直流无刷电机-速度环控制-位置式PID
   ******************************************************************
   * @attention
   *
@@ -17,9 +17,9 @@
 #include "stm32h7xx.h"
 #include "main.h"
 #include "./led/bsp_led.h"
-#include "./delay/core_delay.h" 
 #include "./usart/bsp_debug_usart.h"
 #include "./key/bsp_key.h" 
+#include "./delay/core_delay.h" 
 #include "./bldcm_control/bsp_bldcm_control.h"
 #include "./tim/bsp_basic_tim.h"
 #include "./pid/bsp_pid.h"
